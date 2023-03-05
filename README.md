@@ -1,5 +1,11 @@
 # Elysia
 
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/elysia?logo=python&logoColor=white&style=for-the-badge)](https://pypi.org/project/elysia)
+[![PyPI](https://img.shields.io/pypi/v/elysia?logo=pypi&color=green&logoColor=white&style=for-the-badge)](https://pypi.org/project/elysia)
+[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/celsiusnarhwal/elysia?logo=github&color=orange&logoColor=white&style=for-the-badge)](https://github.com/celsiusnarhwal/elysia/releases)
+[![PyPI - License](https://img.shields.io/pypi/l/elysia?color=03cb98&style=for-the-badge)](https://github.com/celsiusnarhwal/elysia/blob/main/LICENSE.md)
+[![Code style: Black](https://aegis.celsiusnarhwal.dev/badge/black?style=for-the-badge)](https://github.com/psf/black)
+
 Elysia is an addon for [_attrs_](https://attrs.org) that provides what I think is a better API for defining instance
 attributes than _attrs_' own.
 
