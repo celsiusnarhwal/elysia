@@ -4,6 +4,12 @@ All notable changes to Elysia will be documented here. Breaking changes are mark
 
 Elysia adheres to [semantic versioning](https://semver.org).
 
+## <a name="1-1-0">[1.1.0] - 2023-03-27</a>
+
+### Changed
+
+- Elysia now supports creating a `Fields.attr` with a default value of `attrs.NOTHING`.
+
 ## <a name="1-0-1">[1.0.1] - 2023-03-05</a>
 
 ### Changed
