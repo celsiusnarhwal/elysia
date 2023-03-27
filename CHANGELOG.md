@@ -4,6 +4,10 @@ All notable changes to Elysia will be documented here. Breaking changes are mark
 
 Elysia adheres to [semantic versioning](https://semver.org).
 
+## <a name="1-1-1">[1.1.1] - 2023-03-27</a>
+
+No user-facing changes are introduced in this release.
+
 ## <a name="1-1-0">[1.1.0] - 2023-03-27</a>
 
 ### Changed
