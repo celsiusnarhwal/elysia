@@ -55,11 +55,6 @@ attributes that map to `__init__` arguments; `Fields.attr()` defines attributes 
 `attrs.field` and accept all the same arguments. Like `attrs.field`, all arguments to `Fields.field()`
 and `Fields.attr()` are keyword-only.
 
-> **Warning**
->
-> `Fields.attr()` does not allow `default` to be `attrs.NOTHING` and `factory` to simultaneously be `None`, meaning
-> you **must** provide a value for one, and only one, of those arguments.
-
 Both methods also accept an optional, boolean, `frozen` argument. Setting it to `True` is a shortcut
 for `on_setattr=attrs.setters.frozen` — that is, it freezes the attribute, raising an exception if you try to set it
 after initialization.
