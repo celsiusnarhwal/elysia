@@ -25,15 +25,6 @@ class Fields(validate_arguments(attrs.field).model):
 
     @root_validator
     def validate(cls, values):
-        if (
-            not values["init"]
-            and values["default"] is attrs.NOTHING
-            and values["factory"] is None
-        ):
-            raise ValueError(
-                "You must specify either a default or a factory for a non-init attribute."
-            )
-
         if values["frozen"]:
             if values["on_setattr"] is not None:
                 values["on_setattr"] = cls.setters.pipe(
