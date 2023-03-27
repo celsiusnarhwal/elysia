@@ -6,8 +6,8 @@
 [![PyPI - License](https://img.shields.io/pypi/l/elysia?color=03cb98&style=for-the-badge)](https://github.com/celsiusnarhwal/elysia/blob/main/LICENSE.md)
 [![Code style: Black](https://aegis.celsiusnarhwal.dev/badge/black?style=for-the-badge)](https://github.com/psf/black)
 
-Elysia is an addon for [_attrs_](https://attrs.org) that provides what I think is a better API for defining instance
-attributes than _attrs_' own.
+Elysia is an addon for [_attrs_](https://attrs.org) that provides an alternative API for creating fields on
+`@define`d classes.
 
 ## Installation
 
